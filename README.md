@@ -1,4 +1,4 @@
-# SystemLock
+# SystemLock [![Build Status](https://travis-ci.org/rai-project/systemlock.svg?branch=master)](https://travis-ci.org/rai-project/systemlock)
 
 SystemLock is similar to `sync.RWMutex`, but also synchronizes across processes.
 On Linux, OSX, and other POSIX systems it uses the flock system call. On windows
